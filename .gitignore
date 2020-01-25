@@ -1,0 +1,9 @@
+commmands.txt
+other
+goldeneye
+flumine/data/*
+flumine/tmp/*
+env
+.ipynb_checkpoints
+!flumine/data/.gitkeep
+!flumine/tmp/.gitkeep
