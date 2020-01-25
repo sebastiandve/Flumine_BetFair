@@ -1,5 +1,5 @@
 build:
   docker:
-    web: Dockerfile
+    service: Dockerfile
 run:
-  web: python main.py
+  service: python main.py
