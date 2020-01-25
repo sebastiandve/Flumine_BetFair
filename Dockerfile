@@ -2,6 +2,9 @@ FROM python:3.7
 
 RUN apt-get -y update
 
+RUN mkdir -p /flumine
+RUN mkdir -p /flumine/tmp
+
 COPY certs /certs
 COPY flumine/main.py /flumine
 
@@ -12,5 +15,4 @@ RUN pip install -r requirements.txt
 
 
 WORKDIR /flumine
-RUN mkdir -p /flumine/tmp
 CMD python main.py
