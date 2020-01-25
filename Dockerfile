@@ -2,7 +2,7 @@ FROM python:3.7
 
 RUN apt-get -y update
 
-COPY certs /flumine
+COPY certs /flumine/certs
 COPY flumine/main.py /flumine
 
 
