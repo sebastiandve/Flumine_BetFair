@@ -1,4 +1,4 @@
-commmands.txt
+commands.txt
 other
 goldeneye
 flumine/data/*
@@ -7,3 +7,8 @@ env
 .ipynb_checkpoints
 !flumine/data/.gitkeep
 !flumine/tmp/.gitkeep
+!flumine/main.py
+api.ipynb
+config.py
+.idea
+rootkey.csv
