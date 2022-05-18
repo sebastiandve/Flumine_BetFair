@@ -12,3 +12,4 @@ api.ipynb
 config.py
 .idea
 rootkey.csv
+certs/*
